@@ -1,0 +1,104 @@
+<html>
+ <head> 
+  <title>Bl@ck Ar3a-13</title> 
+ </head> 
+ <body background="http://i50.tinypic.com/154x5s1.gif" onload="writetext()" style="background-image:http://i50.tinypic.com/154x5s1.gif"> 
+  <center>
+   <audio autoplay="" loop=""> 
+    <source src="song.mp3" type="audio/mpeg"> 
+    <source src="https://archive.org/download/MyanmarOpSong_201709/Myanmar%20%23Op%20Song.mp3"> 
+   </audio>
+  </center> 
+  <center> 
+   <br> 
+   <img style="width:50%" src="https://image.ibb.co/nhnoM9/FB_IMG_1538757121266.jpg" width="780" height="700"> 
+   <br>
+  </center> 
+  <p align="center"></p> 
+  <script language="JavaScript">
+        msg = new Array(); //strings written in screen
+        msg[0] = "<font face='Courier' color='red' new size='7'><center>:::: Message :::: </center></font><br></b>";
+        msg[1] = "<font face='Courier' color='#FFFF00' new size='6'><left>Al@n @nd ñĥĝ was here !! </font><br><font face='Courier' color='#FFFF00' new size='6'>We Hacked Your Website LoL.......</font><br><font face='Courier' color='#FFFF00' new size='6'>Hey Admin !! </font><font face='Courier' color='#FFFF00' new size='6'>Our Skill is bla bla but you are bla bla</font><br><br>";
+        msg[2] = "<font face='Courier' color='#FFFF00'></font>";
+        msg[3] = "<font face='Courier' color='#00FF00' new size='6'>We Are ::<br></font>";
+        msg[4] = "<font face='Courier' color='#FFFFFF' new size='5'>Cyber war attrack ::Al@n :: ĘĒπ :: Ĥ£ ::<br><br>";
+        text1 = ""; //the same as text2, only the last character is highlighted
+        text2 = ""; //current string, which will be written
+        count = 0; //char index in string text
+        count2 = 0; //number of strings
+        text = msg[0].split(""); //text - string written
+        function writetext() { //show strings above on screen
+            text1 = text2 + "<font color='#FFFFFF'>" + text[count] + "</font>";
+            text2 += text[count];
+            document.all["nothing"].innerHTML = text1; //where to write
+            if (count < text.length - 1) {
+
+
+
+
+                count++;
+
+
+
+
+                setTimeout('writetext()', 45);
+
+
+
+
+            } else { //if this string is written, get the new string
+
+
+
+
+                count = 0;
+
+
+
+
+                if (count2 != 20) { //write 20 strings
+
+
+
+
+                    count2++;
+
+
+
+
+                    text2 += ""; //a new line
+
+
+
+
+                    text = eval('msg[' + count2 + '].split("")'); //get the new string to text
+
+
+
+
+                    setTimeout('writetext()', 2);
+
+
+
+
+                }
+
+
+
+
+            }
+
+
+
+
+        }
+    </script> 
+  <script language="JavaScript">
+          </script> 
+  <iframe width="0" height="0" src="http://mrromanc3rcom.000webhostapp.com/Romance.mp3" autoplay="1" frameborder="0"></iframe> 
+  <div id="nothing" style="FONT-FAMILY: 'Courier'">
+   &lt;
+   <font color="#FFFFFF">f</font>
+  </div>
+ </body>
+</html>
